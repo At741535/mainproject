@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "**/components/**/*.js": "javascriptreact",
+        "**/page-components/**/*.js": "javascriptreact",
+        "**/screens/**/*.js": "javascriptreact",
+        "**/layout/**/*.js": "javascriptreact",
+        "**/elements/*.js": "javascriptreact",
+        "**/guards/*.js": "javascriptreact",
+        "**/pages/*.js": "javascriptreact",
+        "**/context/*.js": "javascriptreact"
+    },
+    "files.eol": "\n",
+}

@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(./assets/font/Poppins-Thin.ttf) format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(./assets/font/Poppins-ExtraLight.ttf) format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(./assets/font/Poppins-Light.ttf) format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(./assets/font/Poppins-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(./assets/font/Poppins-Medium.ttf) format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(./assets/font/Poppins-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(./assets/font/Poppins-Bold.ttf) format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(./assets/font/Poppins-ExtraBold.ttf) format("truetype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(./assets/font/Poppins-Black.ttf) format("truetype");
+  font-weight: 900;
+}
+
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #1868b7;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #0CF5FE70;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0CF5FE;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0CF5FE;
+}
+
+body {
+  padding-right: 0px !important;
+  overflow: auto !important;
+  background-color: #03042B !important;
+  /* color: #000 !important; */
+}
+
+/* body div#menu-currency, body div#menu-currency>.MuiBackdrop-root {
+  position: absolute;
+} */
+
+.autorenew_icon {
+  -webkit-animation: autorenew_icon 2s linear infinite;
+  -moz-animation: autorenew_icon 2s linear infinite;
+  -ms-animation: autorenew_icon 2s linear infinite;
+  -o-animation: autorenew_icon 2s linear infinite;
+  animation: autorenew_icon 2s linear infinite;
+}
+
+@keyframes autorenew_icon {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.checkcircle_icon {
+  transform: scale(1, 1);
+  animation: checkcircle_icon 1s cubic-bezier(0, 0, 0.56, 1.11);
+}
+
+.select {
+  background-color: #fff;
+  color: #000;
+}
+
+@keyframes checkcircle_icon {
+  0% {
+    transform: scale(0.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .big_desktop_container {
+    max-width: 1202px !important;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .big_desktop_container {
+    max-width: 1302px !important;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .big_desktop_container {
+    max-width: 1402px !important;
+  }
+}
